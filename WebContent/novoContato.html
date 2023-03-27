@@ -4,35 +4,27 @@
 <meta charset="UTF-8">
 
 <title>Agenda de Contatos</title>
-<link rel="icon" href="imagens/FavIcon.png">
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 	<h1>Criar novo contato</h1>
-	<form name="formContato" action="insert">
+
+	<form method="get" action="insert">
 
 		<table>
-			<tr>
-				<td><input class="Caixa" type="text" name="nome"
-					placeholder="Nome"></td>
-			</tr>
+			<tr><td><input class="Caixa" type="text" name="nome"
+					placeholder="Nome"></td></tr>
 
-			<tr>
-				<td><input class="Caixa" type="text" name="fone"
-					placeholder="Telefone"></td>
-			</tr>
+			<tr><td><input class="Caixa" type="text" name="fone"
+					placeholder="Telefone"></td></tr>
 
-			<tr>
-				<td><input class="Caixa" type="text" name="email"
-					placeholder="E-mail"></td>
-			</tr>
+			<tr><td><input class="Caixa" type="text" name="email"
+					placeholder="E-mail"></td></tr>
 		</table>
-		<input class="Botao" type="button" value="Adicionar"
-			onclick="validar()">
+
+		<input class="Botao" type="submit" value="Cadastrar Cliente">
 	</form>
-	<script src="scripts/validador.js"></script>
 </body>
 
 </html>
