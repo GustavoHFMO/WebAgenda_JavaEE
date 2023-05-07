@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="model.JavaBeans" %>
+<%@ page import="model.Cliente" %>
 <%@ page import="java.util.ArrayList" %>
 
 <%
-	ArrayList<JavaBeans> lista = (ArrayList<JavaBeans>) request.getAttribute("contatos");
+	ArrayList<Cliente> lista = (ArrayList<Cliente>) request.getAttribute("contatos");
 	
 	/***
 	for(int i = 0; i < lista.size(); i++){
